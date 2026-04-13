@@ -17,7 +17,7 @@ function Header({ theme }) {
       </h1>
       <div className={`pt-6 border-t-2 ${borderColor}`}>
         <h3 className={`font-black uppercase text-xs tracking-widest mb-4 ${accentColor}`}>Контакти</h3>
-        <ul className={`space-y-2 text-sm font-medium ${isDark ? "text-slate-300" : "text-[#0000FF]/80"}`}>
+        <ul className={`space-y-2 text-sm font-medium ${isDark ? "text-slate-300" : "text-[#800000]/40"}`}>
           <li>
             <a href="mailto:vitalii.derzhypilskyi.kb.2023@lpnu.ua" className="hover:underline">
               ✉ vitalii.derzhypilskyi.kb.2023@lpnu.ua
