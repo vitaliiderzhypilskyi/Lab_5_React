@@ -8,4 +8,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/', // Додай цей рядок для коректних шляхів
+  build: {
+    minify: 'esbuild', // Переконайся, що використовується швидкий мініфікатор
+  }
 })
