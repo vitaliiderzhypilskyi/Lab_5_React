@@ -2,7 +2,6 @@ function Header({ theme }) {
   const isDark = theme === "dark";
   const accentColor = isDark ? "text-[#E2C799]" : "text-[#800000]";
   const borderColor = isDark ? "border-[#E2C799]" : "border-[#800000]";
-Ф
   return (
     <div className="space-y-8">
       <div className={`w-60 h-60 border-4 ${borderColor} rounded-full overflow-hidden shadow-2xl mx-auto transition-all`}>
